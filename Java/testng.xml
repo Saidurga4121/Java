@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="YahooLogin" verbose="3">
+  <test thread-count="5" name="Login">
+  <parameter name="url" value="https://login.yahoo.com/?.intl=us"/>
+  <parameter name="userId" value="sai@gmail.com"/>
+    <classes>
+      <class name="testNG.YahooTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
